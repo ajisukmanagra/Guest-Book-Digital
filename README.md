@@ -9,5 +9,7 @@
 6. Jalankan perintah **php artisan migrate**
 7. Lalu jalankan perintah **php artisan db:seed**
 
+Untuk login admin, silahkan buka file **seeder**
+
 Note: Aplikasi belum selesai sepenuhnya, jadi masih ada bagian yang kosong/rusak.
 Bila menemukan kendala/bug, harap lapor ke **Azickri** kelas **XII RPL 2**
