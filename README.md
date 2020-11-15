@@ -6,9 +6,10 @@
 3. Selanjutnya, buka terminal/cmd dan arahkan ke folder yang sudah di clone
 4. Ketik perintah **composer install**
 5. Setelah itu, ketik perintah **copy .env.example .env**
-6. Buat database dengan nama yang sama di file **.env** bagian **DB_DATABASE**
-7. Jalankan perintah **php artisan migrate**
-8. Lalu jalankan perintah **php artisan db:seed**
+6. Ketik perintah **php artisan key:generate**
+7. Buat database dengan nama yang sama di file **.env** bagian **DB_DATABASE**
+8. Jalankan perintah **php artisan migrate**
+9. Lalu jalankan perintah **php artisan db:seed**
 
 Untuk login admin, silahkan buka folder **seeder**
 
