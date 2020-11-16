@@ -26,8 +26,6 @@ Route::get('/register', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 // Route Data Tamu
 Route::get('/tamu_isi_form', [TamuController::class, 'index']);
 Route::post('/tamu_send_form', [TamuController::class, 'store']);
