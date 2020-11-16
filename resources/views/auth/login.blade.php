@@ -198,8 +198,6 @@
 
 <body>
     <div class="main">
-
-
         <div class="container">
             <h2 class="text-center text-white">SMK NURUL ISLAM</h2>
             <h5 class="text-center text-white">Guest Book Digital</h5>

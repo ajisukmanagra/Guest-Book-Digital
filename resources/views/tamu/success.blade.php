@@ -36,7 +36,7 @@
     <script src="{{ asset('js/app.js') }}"></script>
     <script>
         setTimeout(function() {
-            window.location.href = '/tamu_isi_form';
+            window.location.href = '/';
         }, 5000);
     </script>
 </body>

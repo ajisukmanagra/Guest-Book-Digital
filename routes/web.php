@@ -28,16 +28,10 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-// Route::get('/testing', function () {
-//     return view('tamu/testing');
-// });
-
 // Route Data Tamu
 Route::get('/tamu_isi_form', [TamuController::class, 'index']);
 Route::post('/tamu_send_form', [TamuController::class, 'store']);
 Route::get('/tamu_sukses_form', [TamuController::class, 'success']);
-
-// Route::get('/send_email', [HomeController::class, 'send_email']);
 
 // Route Admin
 Route::prefix('admin')->group(function () {
