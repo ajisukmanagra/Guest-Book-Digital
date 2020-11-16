@@ -12,6 +12,7 @@
 7. Buat database dengan nama yang sama di file **.env** bagian **DB_DATABASE**
 8. Jalankan perintah **php artisan migrate**
 9. Lalu jalankan perintah **php artisan db:seed**
+10. Jalankan perintah **php artisan storage:link**
 
 Untuk login admin, silahkan buka folder **seeder**
 
