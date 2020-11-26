@@ -15,6 +15,7 @@
 10. Jalankan perintah **php artisan storage:link**
 
 Untuk login admin, silahkan buka folder **seeder**
+Password SMPT mail silahkan hubungi ke Azickri
 
 Note: Aplikasi belum selesai sepenuhnya, jadi masih ada bagian yang kosong/rusak.
 Bila menemukan kendala/bug, harap lapor ke **Azickri** kelas **XII RPL 2**
